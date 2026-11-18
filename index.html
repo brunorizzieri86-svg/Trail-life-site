@@ -8,7 +8,9 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Trail Life · App do guia de trilhas: saídas, grupo e financeiro sem internet</title>
 <meta name="description" content="TRAIL LIFE é o app de trabalho do guia de trilhas e expedições: roteiros, participantes, termo de riscos, agenda e financeiro num app só. Funciona sem internet. Teste grátis por 7 dias.">
-<meta name="keywords" content="app guia de trilhas, gestão de trilhas, guia de turismo de aventura, ecoturismo, controle de participantes trilha, termo de responsabilidade trilha, financeiro guia de trilha">
+<meta name="keywords" content="app para guia de trilha, aplicativo guia de trilhas, gestão de trilhas, sistema para agência de ecoturismo, guia de turismo de aventura, condutor de trilha, controle de participantes trilha, termo de responsabilidade trilha, termo de ciência de riscos, financeiro guia de trilha, organizar grupo de trilha, app de trekking, app de montanhismo">
+<link rel="alternate" hreflang="pt-BR" href="https://traillife.com.br/">
+<meta name="geo.region" content="BR">
 <meta name="author" content="Trail Life">
 <meta name="copyright" content="(c) 2026 Trail Life · traillife.com.br">
 <meta name="robots" content="index,follow,max-image-preview:large">
@@ -35,16 +37,150 @@
 <link rel="preload" href="img/hero.webp" as="image" type="image/webp">
 <link rel="stylesheet" href="css/site.css">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[
-{"@type":"Organization","@id":"https://traillife.com.br/#org","name":"Trail Life","url":"https://traillife.com.br/","logo":"https://traillife.com.br/img/icone-512.png","email":"contato@traillife.com.br"},
-{"@type":"SoftwareApplication","name":"Trail Life","alternateName":"Trail Life: Guia de Trilhas","applicationCategory":"BusinessApplication","operatingSystem":"Android, iOS, Web","url":"https://app.traillife.com.br/","image":"https://traillife.com.br/img/og-traillife.jpg","description":"App de trabalho do guia de trilhas e expedições: roteiros, participantes, termo de riscos, agenda e financeiro. Funciona sem internet.","publisher":{"@id":"https://traillife.com.br/#org"},
- "offers":[{"@type":"Offer","name":"Plano Grátis","price":"0","priceCurrency":"BRL"},{"@type":"Offer","name":"PRO Mensal","price":"79.90","priceCurrency":"BRL"}]},
-{"@type":"FAQPage","mainEntity":[
- {"@type":"Question","name":"O Trail Life funciona sem internet?","acceptedAnswer":{"@type":"Answer","text":"Sim. Depois de aberto pela primeira vez, o app funciona inteiro sem sinal, no meio do mato."}},
- {"@type":"Question","name":"Funciona no Android e no iPhone?","acceptedAnswer":{"@type":"Answer","text":"Sim. Você instala direto pelo navegador em app.traillife.com.br, no Android (Chrome) e no iPhone (Safari)."}},
- {"@type":"Question","name":"Onde ficam os dados dos meus participantes?","acceptedAnswer":{"@type":"Answer","text":"Só no seu aparelho, protegidos com criptografia AES-256. Não há servidor com seus dados."}},
- {"@type":"Question","name":"Quanto custa o plano PRO?","acceptedAnswer":{"@type":"Answer","text":"O PRO Mensal está em promoção de lançamento por R$ 79,90 por mês. Você testa tudo grátis por 7 dias, sem cartão."}}
-]}]}
+{
+"@context": "https://schema.org",
+"@graph": [
+{
+"@type": "WebSite",
+"@id": "https://traillife.com.br/#site",
+"url": "https://traillife.com.br/",
+"name": "Trail Life",
+"alternateName": [
+"TrailLife",
+"Trail Life App"
+],
+"inLanguage": "pt-BR",
+"publisher": {
+"@id": "https://traillife.com.br/#org"
+}
+},
+{
+"@type": "Organization",
+"@id": "https://traillife.com.br/#org",
+"name": "Trail Life",
+"url": "https://traillife.com.br/",
+"logo": "https://traillife.com.br/img/icone-512.png",
+"email": "contato@traillife.com.br",
+"description": "Trail Life, app de gestão para guias de trilha, condutores e agências de ecoturismo.",
+"areaServed": "BR",
+"contactPoint": {
+"@type": "ContactPoint",
+"telephone": "+55-11-95352-5141",
+"contactType": "sales",
+"availableLanguage": "Portuguese"
+}
+},
+{
+"@type": "SoftwareApplication",
+"name": "Trail Life",
+"alternateName": "Trail Life: Guia de Trilhas",
+"applicationCategory": "BusinessApplication",
+"operatingSystem": "Android, iOS, Web",
+"url": "https://app.traillife.com.br/",
+"image": "https://traillife.com.br/img/og-traillife.jpg",
+"description": "App de trabalho do guia de trilhas e expedições: roteiros, participantes, termo de riscos, agenda e financeiro. Funciona sem internet.",
+"publisher": {
+"@id": "https://traillife.com.br/#org"
+},
+"offers": [
+{
+"@type": "Offer",
+"name": "Plano Grátis",
+"price": "0",
+"priceCurrency": "BRL"
+},
+{
+"@type": "Offer",
+"name": "PRO Mensal",
+"price": "79.90",
+"priceCurrency": "BRL",
+"category": "subscription"
+}
+],
+"applicationSubCategory": "Gestão de turismo de aventura",
+"inLanguage": "pt-BR",
+"installUrl": "https://app.traillife.com.br/?instalar=1",
+"downloadUrl": "https://app.traillife.com.br/",
+"isAccessibleForFree": true,
+"featureList": [
+"Funciona sem internet",
+"Cadastro de saídas e roteiros",
+"Ficha de participantes com contato de emergência",
+"Termo de ciência de riscos em PDF",
+"Check-in no dia",
+"Financeiro por saída",
+"Agenda de aventuras",
+"Criptografia AES-256"
+],
+"screenshot": [
+"https://traillife.com.br/img/tela-inicio.webp",
+"https://traillife.com.br/img/tela-saida.webp",
+"https://traillife.com.br/img/tela-financeiro.webp"
+]
+},
+{
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "Funciona mesmo sem internet?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Sim. Depois de abrir o app pela primeira vez, ele funciona inteiro sem sinal: cadastro, check-in, termos e financeiro. Só precisa de internet para mandar mensagem no WhatsApp ou buscar CEP."
+}
+},
+{
+"@type": "Question",
+"name": "Funciona no Android e no iPhone?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Funciona nos dois. Você instala direto pelo navegador em app.traillife.com.br: no Android pelo Chrome e no iPhone pelo Safari. O app fica na tela inicial como qualquer outro."
+}
+},
+{
+"@type": "Question",
+"name": "Onde ficam os dados dos meus clientes?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Só no seu aparelho, protegidos com criptografia AES-256. Não existe servidor com seus dados. Para não perder nada, faça o backup cifrado e guarde no Drive ou onde preferir."
+}
+},
+{
+"@type": "Question",
+"name": "Como instalo o app?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "No celular, toque em \"Baixar o app\" aqui no site e siga o passo a passo do seu aparelho. No computador, aponte a câmera do celular para o QR code da seção \"Baixe agora\". Leva menos de um minuto."
+}
+},
+{
+"@type": "Question",
+"name": "Como funciona o teste grátis?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Ao instalar, você usa tudo do PRO por 7 dias, sem cartão. Depois, se não assinar, o app segue no plano grátis e nada que você cadastrou é apagado ou bloqueado."
+}
+},
+{
+"@type": "Question",
+"name": "Como ativo o PRO?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "No app, vá em Mais › Plano PRO e toque em \"Pedir pelo WhatsApp\". A mensagem já leva o ID do seu aparelho. Depois do pagamento você recebe um link de ativação: é só tocar. Se usa o app da Play Store, a compra é feita por aqui ou pelo WhatsApp e você cola o código em Mais › Plano PRO."
+}
+},
+{
+"@type": "Question",
+"name": "Troquei de celular. E agora?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Faça o backup no aparelho antigo e restaure no novo. Como o código PRO é ligado ao aparelho, fale com a gente pelo app que liberamos o novo celular."
+}
+}
+]
+}
+]
+}
 </script>
 </head>
 <body data-tl="TL-SITE-7Q3K-BR26">
@@ -75,6 +211,7 @@
    <a href="#recursos">Recursos</a>
    <a href="#telas">Telas</a>
    <a href="#planos">Planos</a>
+   <a href="guias.html">Guias</a>
    <a href="#duvidas">Dúvidas</a>
    <a class="btn" href="#baixar" data-baixar><svg><use href="#i-cel"/></svg> Baixar o app</a>
   </nav>
@@ -331,7 +468,19 @@
  </div>
 </section>
 
-<section class="sec claro" id="duvidas" style="padding-top:0">
+<section class="sec claro corte-topo" id="guias">
+ <div class="wrap">
+  <div class="sec-head surge">
+   <span class="eyebrow">▲ Conteúdo grátis</span>
+   <h2>Guias para<br><span class="laranja">quem guia.</span></h2>
+   <p>Material prático sobre termo de riscos, financeiro, equipamentos e organização de grupos de trilha.</p>
+  </div>
+  <div class="guias-grid"><a class="guia-card" href="app-para-guia-de-trilha.html"><small>Guia · Ferramentas</small><b>App para guia de trilha: o que ele precisa ter</b><span>O que um bom app para guia de trilha e condutor de ecoturismo precisa ter: saídas, participantes, termo de riscos, check-in, financeiro e funcionamento sem internet.</span></a><a class="guia-card" href="termo-de-responsabilidade-trilha.html"><small>Guia · Segurança</small><b>Termo de responsabilidade para trilha: o que colocar</b><span>O que incluir no termo de responsabilidade e ciência de riscos para trilhas e ecoturismo: dados do participante, riscos da atividade, saúde, menores de idade e assinatura.</span></a><a class="guia-card" href="controle-financeiro-guia-de-turismo.html"><small>Guia · Financeiro</small><b>Controle financeiro para guia de turismo de aventura</b><span>Como controlar o financeiro das saídas de trilha e ecoturismo: sinal, parcelas, despesas por saída, resultado do mês e previsão de caixa para guias e condutores.</span></a><a class="guia-card" href="checklist-equipamentos-trilha.html"><small>Guia · Equipamentos</small><b>Checklist de equipamentos para trilha</b><span>Lista completa do que levar na trilha: equipamentos básicos, segurança, primeiros socorros, roupas e itens extras para bate-volta e travessia. Para guias e participantes.</span></a><a class="guia-card" href="como-organizar-grupo-de-trilha.html"><small>Guia · Organização</small><b>Como organizar um grupo de trilha do começo ao fim</b><span>Passo a passo para organizar um grupo de trilha: roteiro, divulgação, inscrições, pagamentos, termo de riscos, check-in e pós-trilha. Para guias e organizadores de aventura.</span></a></div>
+  <p style="margin-top:22px"><a class="btn dark" href="guias.html">Ver todos os guias</a></p>
+ </div>
+</section>
+
+<section class="sec claro" id="duvidas">
  <div class="wrap">
   <div class="sec-head surge">
    <span class="eyebrow">✦ Dúvidas</span>
@@ -370,7 +519,7 @@
     <a class="marca" href="#topo"><img src="img/logo-96.png" width="40" height="40" alt=""><span><small>GUIA DE EXPEDIÇÕES</small><strong>Trail Life</strong></span></a>
     <p>O app de trabalho do guia de trilhas e expedições. Saídas, grupo, termos e financeiro num app só, sem internet.</p>
    </div>
-   <div><h4>App</h4><a href="https://app.traillife.com.br/" data-app>Abrir o app</a><a href="#planos">Planos</a><a href="#duvidas">Dúvidas</a><a href="https://wa.me/5511953525141?text=Ol%C3%A1%21%20Vim%20pelo%20site%20do%20TRAIL%20LIFE%20e%20quero%20saber%20mais%20sobre%20o%20app%20para%20guias%20de%20trilha." data-wa="geral">WhatsApp (11) 95352-5141</a><a href="mailto:contato@traillife.com.br">contato@traillife.com.br</a></div>
+   <div><h4>App</h4><a href="https://app.traillife.com.br/" data-app>Abrir o app</a><a href="#planos">Planos</a><a href="guias.html">Guias para guias</a><a href="#duvidas">Dúvidas</a><a href="https://wa.me/5511953525141?text=Ol%C3%A1%21%20Vim%20pelo%20site%20do%20TRAIL%20LIFE%20e%20quero%20saber%20mais%20sobre%20o%20app%20para%20guias%20de%20trilha." data-wa="geral">WhatsApp (11) 95352-5141</a><a href="mailto:contato@traillife.com.br">contato@traillife.com.br</a></div>
    <div><h4>Legal</h4><a href="privacidade.html">Política de privacidade</a><a href="termos.html">Termos de uso</a><a href="excluir-dados.html">Excluir meus dados</a></div>
   </div>
   <div class="copy"><span>© 2026 Trail Life · traillife.com.br · Todos os direitos reservados.</span><span>Marca, textos, imagens e código protegidos (Lei 9.610/98).</span></div>

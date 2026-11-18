@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
- <url><loc>https://traillife.com.br/</loc><lastmod>2026-11-18</lastmod><priority>1.0</priority></url>
- <url><loc>https://traillife.com.br/privacidade.html</loc><lastmod>2026-11-18</lastmod><priority>0.4</priority></url>
- <url><loc>https://traillife.com.br/termos.html</loc><lastmod>2026-11-18</lastmod><priority>0.4</priority></url>
- <url><loc>https://traillife.com.br/excluir-dados.html</loc><lastmod>2026-11-18</lastmod><priority>0.3</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+ <url><loc>https://traillife.com.br/</loc><lastmod>2026-11-18</lastmod><changefreq>weekly</changefreq><priority>1.0</priority><image:image><image:loc>https://traillife.com.br/img/og-traillife.jpg</image:loc></image:image><image:image><image:loc>https://traillife.com.br/img/tela-inicio.webp</image:loc></image:image><image:image><image:loc>https://traillife.com.br/img/tela-saidas.webp</image:loc></image:image><image:image><image:loc>https://traillife.com.br/img/tela-financeiro.webp</image:loc></image:image></url>
+ <url><loc>https://traillife.com.br/guias.html</loc><lastmod>2026-11-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://traillife.com.br/app-para-guia-de-trilha.html</loc><lastmod>2026-11-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://traillife.com.br/termo-de-responsabilidade-trilha.html</loc><lastmod>2026-11-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://traillife.com.br/controle-financeiro-guia-de-turismo.html</loc><lastmod>2026-11-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://traillife.com.br/checklist-equipamentos-trilha.html</loc><lastmod>2026-11-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://traillife.com.br/como-organizar-grupo-de-trilha.html</loc><lastmod>2026-11-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://traillife.com.br/privacidade.html</loc><lastmod>2026-11-18</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+ <url><loc>https://traillife.com.br/termos.html</loc><lastmod>2026-11-18</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+ <url><loc>https://traillife.com.br/excluir-dados.html</loc><lastmod>2026-11-18</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
 </urlset>

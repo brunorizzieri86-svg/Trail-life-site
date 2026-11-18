@@ -1,0 +1,29 @@
+# Trail Life
+
+> Trail Life é um app brasileiro de gestão para guias de trilha, condutores de ecoturismo, agências de turismo de aventura e organizadores de grupos. Funciona sem internet, instala pelo navegador no Android e no iPhone e guarda os dados só no celular, com criptografia AES-256.
+
+- Site oficial: https://traillife.com.br/
+- App (instalar ou abrir): https://app.traillife.com.br/
+- Contato: contato@traillife.com.br · WhatsApp +55 11 95352-5141
+
+## O que o app faz
+- Saídas e roteiros: local, data, ponto de encontro, distância, desnível, nível, equipamentos, vagas e lista de espera; roteiro em PDF.
+- Participantes: ficha completa, contato de emergência, saúde, responsável legal de menores, check-in, WhatsApp com um toque.
+- Termo de ciência de riscos pronto em PDF.
+- Agenda de aventuras e visão anual.
+- Financeiro por saída: sinal, parcelas, saldo, despesas, resultado do mês, previsão de caixa, exportação CSV.
+
+## Planos
+- Teste: 7 dias com tudo do PRO, sem cartão.
+- Grátis: até 2 saídas futuras e 30 pessoas.
+- PRO Mensal: R$ 79,90 por mês (preço promocional). Planos de 6 e 12 meses em breve.
+
+## Guias
+- [App para guia de trilha](https://traillife.com.br/app-para-guia-de-trilha.html)
+- [Termo de responsabilidade para trilha](https://traillife.com.br/termo-de-responsabilidade-trilha.html)
+- [Controle financeiro para guia de turismo](https://traillife.com.br/controle-financeiro-guia-de-turismo.html)
+- [Checklist de equipamentos para trilha](https://traillife.com.br/checklist-equipamentos-trilha.html)
+- [Como organizar um grupo de trilha](https://traillife.com.br/como-organizar-grupo-de-trilha.html)
+
+## Políticas
+- [Privacidade](https://traillife.com.br/privacidade.html) · [Termos](https://traillife.com.br/termos.html)
