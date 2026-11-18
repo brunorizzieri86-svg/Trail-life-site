@@ -1,0 +1,379 @@
+<!doctype html>
+<!-- TRAIL LIFE · site oficial · https://traillife.com.br · (c) 2026 Trail Life. Todos os direitos reservados.
+     Código, textos, imagens e marca protegidos pela Lei 9.610/98 (direitos autorais) e Lei 9.279/96 (marcas).
+     Cópia, reprodução ou adaptação sem autorização expressa são proibidas. Assinatura: TL-SITE-7Q3K-BR26 -->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Trail Life · App do guia de trilhas: saídas, grupo e financeiro sem internet</title>
+<meta name="description" content="TRAIL LIFE é o app de trabalho do guia de trilhas e expedições: roteiros, participantes, termo de riscos, agenda e financeiro num app só. Funciona sem internet. Teste grátis por 7 dias.">
+<meta name="keywords" content="app guia de trilhas, gestão de trilhas, guia de turismo de aventura, ecoturismo, controle de participantes trilha, termo de responsabilidade trilha, financeiro guia de trilha">
+<meta name="author" content="Trail Life">
+<meta name="copyright" content="(c) 2026 Trail Life · traillife.com.br">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0a1d16">
+<link rel="canonical" href="https://traillife.com.br/">
+<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/icon-192.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Trail Life">
+<meta property="og:url" content="https://traillife.com.br/">
+<meta property="og:title" content="Trail Life · Explore mais. Guie melhor.">
+<meta property="og:description" content="Saídas, grupo, termos e financeiro das suas trilhas num app só. Funciona sem internet. Teste grátis por 7 dias.">
+<meta property="og:image" content="https://traillife.com.br/img/og-traillife.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Trail Life, o app do guia de trilhas">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Trail Life · Explore mais. Guie melhor.">
+<meta name="twitter:description" content="O app de trabalho do guia de trilhas. Funciona sem internet.">
+<meta name="twitter:image" content="https://traillife.com.br/img/og-traillife.jpg">
+<link rel="preload" href="fonts/barlow-condensed-latin-900-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/hero.webp" as="image" type="image/webp">
+<link rel="stylesheet" href="css/site.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"https://traillife.com.br/#org","name":"Trail Life","url":"https://traillife.com.br/","logo":"https://traillife.com.br/img/icone-512.png","email":"contato@traillife.com.br"},
+{"@type":"SoftwareApplication","name":"Trail Life","alternateName":"Trail Life: Guia de Trilhas","applicationCategory":"BusinessApplication","operatingSystem":"Android, iOS, Web","url":"https://apptraillife.com.br/","image":"https://traillife.com.br/img/og-traillife.jpg","description":"App de trabalho do guia de trilhas e expedições: roteiros, participantes, termo de riscos, agenda e financeiro. Funciona sem internet.","publisher":{"@id":"https://traillife.com.br/#org"},
+ "offers":[{"@type":"Offer","name":"Plano Grátis","price":"0","priceCurrency":"BRL"},{"@type":"Offer","name":"PRO Mensal","price":"79.90","priceCurrency":"BRL"}]},
+{"@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"O Trail Life funciona sem internet?","acceptedAnswer":{"@type":"Answer","text":"Sim. Depois de aberto pela primeira vez, o app funciona inteiro sem sinal, no meio do mato."}},
+ {"@type":"Question","name":"Funciona no Android e no iPhone?","acceptedAnswer":{"@type":"Answer","text":"Sim. Você instala direto pelo navegador em apptraillife.com.br, no Android (Chrome) e no iPhone (Safari)."}},
+ {"@type":"Question","name":"Onde ficam os dados dos meus participantes?","acceptedAnswer":{"@type":"Answer","text":"Só no seu aparelho, protegidos com criptografia AES-256. Não há servidor com seus dados."}},
+ {"@type":"Question","name":"Quanto custa o plano PRO?","acceptedAnswer":{"@type":"Answer","text":"O PRO Mensal está em promoção de lançamento por R$ 79,90 por mês. Você testa tudo grátis por 7 dias, sem cartão."}}
+]}]}
+</script>
+</head>
+<body data-tl="TL-SITE-7Q3K-BR26">
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="i-ok" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M4 12.5l5 5L20 6.5"/></symbol>
+ <symbol id="i-mapa" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" d="M3 19l5-12 4 7 3-4 6 9z"/><circle cx="17" cy="5" r="2" fill="currentColor"/></symbol>
+ <symbol id="i-grupo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c.6-3.6 3-5.5 6-5.5s5.4 1.9 6 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M16.5 14.6c2.5.2 4 1.9 4.5 4.6"/></g></symbol>
+ <symbol id="i-agenda" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/><path d="M8 14.5l2.5 2.5L16 12"/></g></symbol>
+ <symbol id="i-grana" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="2.5" y="6" width="19" height="13" rx="2.5"/><circle cx="12" cy="12.5" r="2.8"/><path d="M6 9.5v6M18 9.5v6"/></g></symbol>
+ <symbol id="i-cadeado" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 018 0v3M12 14.5v2.5"/></g></symbol>
+ <symbol id="i-sinal" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 19v-2M9.5 19v-5M14 19v-8M18.5 19V8"/><path d="M3 3l18 18"/></g></symbol>
+ <symbol id="i-cel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M12 15.5v-7M9 12l3 3.5 3-3.5"/></g></symbol>
+ <symbol id="i-seta" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M4 12h15M13 6l6 6-6 6"/></symbol>
+ <symbol id="i-escudo" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" d="M12 2.8l7.5 3v6c0 4.6-3.2 8-7.5 9.4-4.3-1.4-7.5-4.8-7.5-9.4v-6z"/><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+</svg>
+
+<header class="topbar">
+ <div class="wrap">
+  <a class="marca" href="#topo" aria-label="Trail Life, início">
+   <img src="img/logo-96.png" width="40" height="40" alt="">
+   <span><small>GUIA DE EXPEDIÇÕES</small><strong>Trail Life</strong></span>
+  </a>
+  <nav class="menu" id="menu" aria-label="Principal">
+   <a href="#recursos">Recursos</a>
+   <a href="#telas">Telas</a>
+   <a href="#planos">Planos</a>
+   <a href="#duvidas">Dúvidas</a>
+   <a class="btn" href="https://apptraillife.com.br/" data-app>Abrir o app</a>
+  </nav>
+  <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h11"/></svg></button>
+ </div>
+</header>
+
+<main id="conteudo">
+<section class="hero" id="topo">
+ <div class="wrap">
+  <div>
+   <span class="eyebrow">✦ O app de trabalho do guia de trilhas</span>
+   <h1>Explore mais.<br><em>Guie melhor.</em></h1>
+   <p class="lead">Saídas, grupo, termo de riscos e financeiro num app só. Pensado para quem guia gente no meio do mato, <b>sem sinal e sem desculpa</b>.</p>
+   <div class="acoes">
+    <a class="btn" href="https://apptraillife.com.br/" data-app>Começar grátis <svg><use href="#i-seta"/></svg></a>
+    <button class="btn ghost" type="button" data-instalar><svg><use href="#i-cel"/></svg> Instalar no celular</button>
+   </div>
+   <div class="selos">
+    <span><svg><use href="#i-sinal"/></svg>Funciona sem internet</span>
+    <span><svg><use href="#i-cadeado"/></svg>Criptografia AES-256</span>
+    <span><svg><use href="#i-ok"/></svg>7 dias de PRO grátis</span>
+   </div>
+  </div>
+  <div class="hero-visual">
+   <img class="sol-arte" src="img/por-do-sol.webp" width="230" height="236" alt="" loading="eager">
+   <div class="fone"><img src="img/tela-inicio.webp" width="420" height="747" alt="Tela inicial do Trail Life com a próxima saída e o painel de comando"></div>
+   <div class="tag"><small>PRÓXIMA SAÍDA</small><b>Pico dos Marins</b></div>
+  </div>
+ </div>
+</section>
+
+<div class="faixa" aria-hidden="true"><div>
+ <span>Saídas</span><span>Grupo</span><span>Termo de riscos</span><span>Check-in</span><span>Financeiro</span><span>WhatsApp</span><span>Sem sinal</span>
+ <span>Saídas</span><span>Grupo</span><span>Termo de riscos</span><span>Check-in</span><span>Financeiro</span><span>WhatsApp</span><span>Sem sinal</span>
+</div></div>
+
+<section class="sec claro" id="porque">
+ <div class="wrap">
+  <div class="sec-head surge">
+   <span class="eyebrow">▲ Chega de caderninho e planilha</span>
+   <h2>O mato não tem sinal.<br><span class="laranja">Seu app não precisa.</span></h2>
+   <p>Grupo no WhatsApp, lista no papel, Pix no extrato e termo esquecido em casa. O Trail Life junta tudo num lugar só e roda no seu bolso, até onde a antena não chega.</p>
+  </div>
+  <div class="numeros">
+   <div class="num surge"><b>100<small>%</small></b><span>funciona offline, do estacionamento ao cume</span></div>
+   <div class="num surge"><b>0</b><span>anúncios, rastreadores ou venda de dados</span></div>
+   <div class="num surge"><b>256</b><span>bits de criptografia AES nos seus dados e backups</span></div>
+   <div class="num surge"><b>1</b><span>toque para chamar o grupo no WhatsApp</span></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec escuro corte-topo" id="recursos">
+ <div class="wrap">
+  <div class="sec-head surge">
+   <span class="eyebrow">✦ Arsenal completo</span>
+   <h2>Tudo que o guia precisa.<br><span class="laranja">Nada que atrapalhe.</span></h2>
+   <p>Do roteiro ao acerto de contas. Cada tela foi feita para resolver rápido, com uma mão, de luva, no frio.</p>
+  </div>
+  <div class="recursos">
+   <article class="rec surge">
+    <div class="ico"><svg><use href="#i-mapa"/></svg></div>
+    <h3>Saídas e roteiros</h3>
+    <ul>
+     <li>Local, data, horário, ponto de encontro, distância, desnível, nível e equipamentos</li>
+     <li>Duplique em segundos uma saída que já deu certo</li>
+     <li>Roteiro em PDF pronto para mandar ao grupo</li>
+     <li>Controle de vagas, inscritos e lista de espera</li>
+    </ul>
+   </article>
+   <article class="rec surge">
+    <div class="ico"><svg><use href="#i-grupo"/></svg></div>
+    <h3>Grupo e segurança</h3>
+    <ul>
+     <li>Cadastro completo: contato, documento, emergência e saúde</li>
+     <li>Responsável legal para menores de idade</li>
+     <li>Termo de ciência de riscos pronto para imprimir ou salvar em PDF</li>
+     <li>Check-in no dia e mensagem no WhatsApp com um toque</li>
+    </ul>
+   </article>
+   <article class="rec surge">
+    <div class="ico"><svg><use href="#i-agenda"/></svg></div>
+    <h3>Agenda de aventuras</h3>
+    <ul>
+     <li>Calendário com saídas e compromissos juntos</li>
+     <li>Próximas aventuras dos próximos 60 dias na tela inicial</li>
+     <li>Visão do ano inteiro para planejar a temporada</li>
+     <li>Aniversariantes do grupo para você não esquecer ninguém</li>
+    </ul>
+   </article>
+   <article class="rec surge">
+    <div class="ico"><svg><use href="#i-grana"/></svg></div>
+    <h3>Financeiro na mão</h3>
+    <ul>
+     <li>Recebimentos por participante: sinal, parcela e saldo</li>
+     <li>Despesas por saída: transporte, alimentação, seguro e taxas</li>
+     <li>Resultado do mês e de cada saída, com previsão de caixa</li>
+     <li>Exportação em CSV para a planilha ou o contador</li>
+    </ul>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section class="sec claro corte-topo" id="dados">
+ <div class="wrap dados">
+  <div class="arte surge"><img src="img/silhueta.webp" width="600" height="1067" alt="Silhueta de um guia no alto da montanha ao pôr do sol" loading="lazy"></div>
+  <div class="surge">
+   <span class="eyebrow">▲ Blindado</span>
+   <h2>Seus dados.<br><span class="laranja">Seu território.</span></h2>
+   <ul class="check">
+    <li><svg><use href="#i-escudo"/></svg>Tudo fica só no seu celular. Sem servidor, sem cadastro on-line, sem ninguém espiando sua lista de clientes.</li>
+    <li><svg><use href="#i-cadeado"/></svg>Criptografia AES-256 com chave derivada da sua senha. Nem a gente consegue abrir.</li>
+    <li><svg><use href="#i-ok"/></svg>Backup cifrado com senha para guardar no Drive, no pendrive ou onde preferir.</li>
+    <li><svg><use href="#i-ok"/></svg>Sem anúncios e sem rastreamento. Feito de acordo com a LGPD.</li>
+   </ul>
+   <a class="btn dark" href="privacidade.html">Ler a política de privacidade</a>
+  </div>
+ </div>
+</section>
+
+<section class="sec escuro corte-topo" id="telas">
+ <div class="wrap">
+  <div class="sec-head surge">
+   <span class="eyebrow">✦ Por dentro do app</span>
+   <h2>Feito para a trilha.<br><span class="laranja">Não para o escritório.</span></h2>
+   <p class="dica-arraste">Arraste para o lado para ver todas as telas.</p>
+  </div>
+  <div class="telas" tabindex="0" aria-label="Telas do aplicativo">
+   <figure class="tela"><div class="fone"><img src="img/tela-inicio.webp" width="420" height="747" alt="Tela inicial"></div><b>Visão geral</b><small>Próxima saída, vagas e pendências</small></figure>
+   <figure class="tela"><div class="fone"><img src="img/tela-saidas.webp" width="420" height="747" alt="Lista de saídas"></div><b>Saídas</b><small>Todos os roteiros na palma da mão</small></figure>
+   <figure class="tela"><div class="fone"><img src="img/tela-saida.webp" width="420" height="747" alt="Detalhe de uma saída"></div><b>Ficha da saída</b><small>Grupo, check-in e termos</small></figure>
+   <figure class="tela"><div class="fone"><img src="img/tela-agenda.webp" width="420" height="747" alt="Agenda de aventuras"></div><b>Agenda</b><small>A temporada inteira organizada</small></figure>
+   <figure class="tela"><div class="fone"><img src="img/tela-financeiro.webp" width="420" height="747" alt="Financeiro"></div><b>Financeiro</b><small>Quem pagou, quem deve e quanto sobrou</small></figure>
+   <figure class="tela"><div class="fone"><img src="img/tela-pessoas.webp" width="420" height="747" alt="Cadastro de pessoas"></div><b>Pessoas</b><small>Fichas completas e contato de emergência</small></figure>
+  </div>
+ </div>
+</section>
+
+<section class="sec claro corte-topo" id="como">
+ <div class="wrap">
+  <div class="sec-head surge">
+   <span class="eyebrow">▲ Em 3 passos</span>
+   <h2>Da instalação<br><span class="laranja">ao cume.</span></h2>
+  </div>
+  <div class="passos">
+   <div class="passo surge"><span class="eyebrow">Passo um</span><h3>Abra e instale</h3><p>Entre em apptraillife.com.br pelo celular e coloque o app na tela inicial. Sem loja, sem cadastro, sem cartão.</p></div>
+   <div class="passo surge"><span class="eyebrow">Passo dois</span><h3>Monte a saída</h3><p>Cadastre o roteiro, abra as vagas e mande o convite pro grupo pelo WhatsApp com um toque.</p></div>
+   <div class="passo surge"><span class="eyebrow">Passo três</span><h3>Pé na trilha</h3><p>Check-in, termo assinado, contato de emergência e caixa fechado. Tudo offline, tudo no bolso.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec escuro corte-topo" id="planos">
+ <div class="wrap">
+  <div class="sec-head surge">
+   <span class="eyebrow">✦ Planos</span>
+   <h2>Comece grátis.<br><span class="laranja">Vire PRO.</span></h2>
+   <p>Ao instalar você ganha 7 dias com tudo do PRO liberado. Depois, segue no plano grátis ou assina o PRO. Seus dados nunca ficam presos.</p>
+  </div>
+  <div class="teste surge"><b>7 dias de PRO grátis</b><span>Sem cartão, sem pegadinha. É só instalar.</span></div>
+  <div class="planos">
+   <div class="plano gratis surge">
+    <h3>Grátis</h3>
+    <div class="periodo">Para sempre</div>
+    <div class="preco"><small>R$</small><b>0</b></div>
+    <ul>
+     <li><svg><use href="#i-ok"/></svg>Até 2 saídas futuras ao mesmo tempo</li>
+     <li><svg><use href="#i-ok"/></svg>Até 30 pessoas cadastradas</li>
+     <li><svg><use href="#i-ok"/></svg>Agenda, termos e financeiro básico</li>
+     <li><svg><use href="#i-ok"/></svg>Backup e criptografia inclusos</li>
+    </ul>
+    <a class="btn ghost full" style="color:var(--floresta);box-shadow:inset 0 0 0 2px var(--floresta)" href="https://apptraillife.com.br/" data-app>Começar grátis</a>
+   </div>
+   <div class="plano pro surge">
+    <span class="selo-promo">🔥 Promoção de lançamento</span>
+    <h3>PRO Mensal</h3>
+    <div class="periodo">Sem limites</div>
+    <div class="preco"><small>R$</small><b>79</b><span>,90</span><em>/mês</em></div>
+    <ul>
+     <li><svg><use href="#i-ok"/></svg>Saídas e pessoas ilimitadas</li>
+     <li><svg><use href="#i-ok"/></svg>Divulgação pronta: imagem 1080×1350 + texto</li>
+     <li><svg><use href="#i-ok"/></svg>Avisos em massa por WhatsApp e e-mail</li>
+     <li><svg><use href="#i-ok"/></svg>Roteiro em PDF e ficha completa da saída</li>
+     <li><svg><use href="#i-ok"/></svg>Previsão de caixa</li>
+     <li><svg><use href="#i-ok"/></svg>Importar e exportar planilha</li>
+     <li><svg><use href="#i-ok"/></svg>Sem a marca "Plano Grátis"</li>
+    </ul>
+    <a class="btn sol full" href="https://apptraillife.com.br/#pro" data-app="#pro">Quero ser PRO <svg><use href="#i-seta"/></svg></a>
+   </div>
+   <div class="plano breve surge">
+    <span class="selo-breve">Em breve</span>
+    <h3>PRO 6 meses</h3>
+    <div class="periodo">Pague menos por mês</div>
+    <div class="preco"><b>Em breve</b></div>
+    <ul><li><svg><use href="#i-ok"/></svg>Tudo do PRO Mensal</li><li><svg><use href="#i-ok"/></svg>Uma temporada inteira coberta</li></ul>
+    <a class="btn dark full" href="mailto:contato@traillife.com.br?subject=Quero%20saber%20do%20PRO%206%20meses" data-avise>Me avise</a>
+   </div>
+   <div class="plano breve surge">
+    <span class="selo-breve">Em breve</span>
+    <h3>PRO 12 meses</h3>
+    <div class="periodo">O melhor preço</div>
+    <div class="preco"><b>Em breve</b></div>
+    <ul><li><svg><use href="#i-ok"/></svg>Tudo do PRO Mensal</li><li><svg><use href="#i-ok"/></svg>Um ano inteiro sem se preocupar</li></ul>
+    <a class="btn dark full" href="mailto:contato@traillife.com.br?subject=Quero%20saber%20do%20PRO%2012%20meses" data-avise>Me avise</a>
+   </div>
+  </div>
+  <div class="ativacao">
+   <div class="surge"><b>1. Abra o PRO</b><span>No app, toque em Mais › Plano PRO.</span></div>
+   <div class="surge"><b>2. Peça no WhatsApp</b><span>O botão já envia o ID do seu aparelho.</span></div>
+   <div class="surge"><b>3. Pague</b><span>Combine o pagamento direto com a gente.</span></div>
+   <div class="surge"><b>4. Ative</b><span>Você recebe um link de ativação. Tocou, virou PRO.</span></div>
+  </div>
+  <p class="nota-plano">Instalou o Trail Life pela Play Store? Lá o PRO não é vendido: assine por aqui ou pelo WhatsApp e cole o código que você receber em Mais › Plano PRO. O código de ativação é pessoal e vale só para o seu aparelho. Preço promocional por tempo limitado.</p>
+ </div>
+</section>
+
+<section class="sec claro corte-topo" id="publico">
+ <div class="wrap">
+  <div class="sec-head surge">
+   <span class="eyebrow">▲ Para quem é</span>
+   <h2>Feito para quem<br><span class="laranja">vive a trilha.</span></h2>
+  </div>
+  <div class="publico">
+   <div class="surge" style="background-image:url(img/trilha.webp)"><b>Guias de trilha<span>Do bate-volta à travessia de vários dias.</span></b></div>
+   <div class="surge" style="background-image:url(img/hero.webp)"><b>Condutores<span>Grupo na linha e documentação em dia.</span></b></div>
+   <div class="surge" style="background-image:url(img/acampamento.webp)"><b>Agências de ecoturismo<span>Várias saídas, um caixa organizado.</span></b></div>
+   <div class="surge" style="background-image:url(img/silhueta.webp);background-position:center 30%"><b>Grupos de aventura<span>Organizadores que levam a galera pro mato.</span></b></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec claro" id="duvidas" style="padding-top:0">
+ <div class="wrap">
+  <div class="sec-head surge">
+   <span class="eyebrow">✦ Dúvidas</span>
+   <h2>Perguntas<br><span class="laranja">frequentes.</span></h2>
+  </div>
+  <div class="faq">
+   <details><summary>Funciona mesmo sem internet?</summary><p>Sim. Depois de abrir o app pela primeira vez, ele funciona inteiro sem sinal: cadastro, check-in, termos e financeiro. Só precisa de internet para mandar mensagem no WhatsApp ou buscar CEP.</p></details>
+   <details><summary>Funciona no Android e no iPhone?</summary><p>Funciona nos dois. Você instala direto pelo navegador em apptraillife.com.br: no Android pelo Chrome e no iPhone pelo Safari. O app fica na tela inicial como qualquer outro.</p></details>
+   <details><summary>Onde ficam os dados dos meus clientes?</summary><p>Só no seu aparelho, protegidos com criptografia AES-256. Não existe servidor com seus dados. Para não perder nada, faça o backup cifrado e guarde no Drive ou onde preferir.</p></details>
+   <details><summary>Como instalo o app?</summary><p>Toque em "Instalar no celular" aqui no site e siga o passo a passo do seu aparelho. Leva menos de um minuto.</p></details>
+   <details><summary>Como funciona o teste grátis?</summary><p>Ao instalar, você usa tudo do PRO por 7 dias, sem cartão. Depois, se não assinar, o app segue no plano grátis e nada que você cadastrou é apagado ou bloqueado.</p></details>
+   <details><summary>Como ativo o PRO?</summary><p>No app, vá em Mais › Plano PRO e toque em "Pedir pelo WhatsApp". A mensagem já leva o ID do seu aparelho. Depois do pagamento você recebe um link de ativação: é só tocar. Se usa o app da Play Store, a compra é feita por aqui ou pelo WhatsApp e você cola o código em Mais › Plano PRO.</p></details>
+   <details><summary>Troquei de celular. E agora?</summary><p>Faça o backup no aparelho antigo e restaure no novo. Como o código PRO é ligado ao aparelho, fale com a gente pelo app que liberamos o novo celular.</p></details>
+  </div>
+ </div>
+</section>
+
+<section class="final" id="bora">
+ <div class="wrap surge">
+  <span class="eyebrow">▲ Sua próxima saída começa aqui</span>
+  <h2>Bora pra<br><span class="laranja">trilha.</span></h2>
+  <p>Instale agora, ganhe 7 dias de PRO e leve o grupo inteiro no bolso.</p>
+  <div class="acoes">
+   <a class="btn" href="https://apptraillife.com.br/" data-app>Abrir o Trail Life <svg><use href="#i-seta"/></svg></a>
+   <button class="btn ghost" type="button" data-instalar><svg><use href="#i-cel"/></svg> Como instalar</button>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer class="rodape">
+ <div class="wrap">
+  <div class="cols">
+   <div>
+    <a class="marca" href="#topo"><img src="img/logo-96.png" width="40" height="40" alt=""><span><small>GUIA DE EXPEDIÇÕES</small><strong>Trail Life</strong></span></a>
+    <p>O app de trabalho do guia de trilhas e expedições. Saídas, grupo, termos e financeiro num app só, sem internet.</p>
+   </div>
+   <div><h4>App</h4><a href="https://apptraillife.com.br/" data-app>Abrir o app</a><a href="#planos">Planos</a><a href="#duvidas">Dúvidas</a><a href="mailto:contato@traillife.com.br">contato@traillife.com.br</a></div>
+   <div><h4>Legal</h4><a href="privacidade.html">Política de privacidade</a><a href="termos.html">Termos de uso</a><a href="excluir-dados.html">Excluir meus dados</a></div>
+  </div>
+  <div class="copy"><span>© 2026 Trail Life · traillife.com.br · Todos os direitos reservados.</span><span>Marca, textos, imagens e código protegidos (Lei 9.610/98).</span></div>
+ </div>
+</footer>
+
+<div class="modal" id="modalInstalar" role="dialog" aria-modal="true" aria-labelledby="tInstalar">
+ <div class="caixa">
+  <button class="fechar" type="button" data-fechar aria-label="Fechar">×</button>
+  <span class="eyebrow" style="color:var(--trilha)">▲ Menos de 1 minuto</span>
+  <h3 id="tInstalar">Instale o Trail Life</h3>
+  <div class="abas" role="tablist">
+   <button type="button" role="tab" data-aba="android" class="on">Android</button>
+   <button type="button" role="tab" data-aba="iphone">iPhone</button>
+  </div>
+  <ol data-painel="android">
+   <li>Toque em <b>Abrir o app</b> abaixo (abre no Chrome).</li>
+   <li>Toque em <b>Instalar</b> na faixa "Instale o TRAIL LIFE" que aparece no app. Se não aparecer, toque no menu <b>⋮</b> e em <b>Instalar app</b> ou <b>Adicionar à tela inicial</b>.</li>
+   <li>Pronto: o ícone do Trail Life fica na sua tela inicial e funciona sem internet.</li>
+  </ol>
+  <ol data-painel="iphone" hidden>
+   <li>Abra o link abaixo <b>no Safari</b>.</li>
+   <li>Toque no botão <b>Compartilhar</b> (quadrado com a seta para cima).</li>
+   <li>Role e toque em <b>Adicionar à Tela de Início</b> e depois em <b>Adicionar</b>.</li>
+  </ol>
+  <a class="btn full" href="https://apptraillife.com.br/?instalar=1" data-app="?instalar=1">Abrir o app <svg><use href="#i-seta"/></svg></a>
+  <p class="obs">Endereço oficial do app: <b>apptraillife.com.br</b>. Desconfie de cópias em outros endereços.</p>
+ </div>
+</div>
+
+<script src="js/site.js" defer></script>
+</body>
+</html>
